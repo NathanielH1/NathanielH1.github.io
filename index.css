@@ -1,0 +1,109 @@
+
+html{
+    background-image: url("background.jpg");
+  
+}
+body{
+  width:800px;
+  background-color: white;
+  margin:auto;
+}
+
+h2{
+    margin:auto;
+    text-align: center;
+}
+p{
+  margin-left:10%;
+}
+table,th,td{
+    border:1px solid black; 
+    border-collapse: collapse;
+    text-align: center;
+    margin-left:25%;
+}
+h1{
+  text-align: center;
+}
+h3{
+    padding-top: 5px;
+    text-align: center;
+    color:white;
+    
+}
+p{
+  text-align: center;
+  margin-right: 55px;
+}
+header{
+
+    background-color: black;
+}
+footer{
+  padding-top:10px;
+  padding-bottom:10px;
+  color: white;
+  text-align:center;
+  background-color: black;
+  position: absolute;
+  width:800px;
+  bottom:0;
+}
+#logo{
+  width:150px;
+  height:150px;
+  margin-left:125px;
+  
+}
+a:link{
+  color:white;
+}
+/*------Two Column Layout---------- */
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+/* -----------Navigation Menu-------------- */
+#nav_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+
+  #nav_menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+ #nav_menu li {
+    float: left;
+    text-align: center;
+
+  }
+  
+  #nav_menu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 106px;
+  }
+  
+  #nav_menu li a:hover, .dropdown:hover .dropbtn {
+    background-color: gray;
+  }
+  #nav_menu ul li a.current {
+	color: lightblue;
+}
+
+  .dropdown-content a:hover {background-color: gray;}
+  
+  .dropdown:hover .dropdown-content {
+    display:block;
+  }
